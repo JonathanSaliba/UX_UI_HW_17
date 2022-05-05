@@ -109,3 +109,33 @@ body {
     font-size: 0.9rem;
     margin: 0 auto;
 }
+
+.footernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footernav a{
+    margin: 1rem;
+}
+
+.footernav img {
+    height: 31px;
+    width: 31px;
+}
+
+.footernav ul {
+    display: flex;
+    margin: 31px;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.mainfooter {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: linear-gradient(67.13deg, rgba(217, 183, 154, 0.2) 56.45%, rgba(217, 183, 154, 0.1) 100%), linear-gradient(90deg, rgba(233, 228, 224, 0.5) 0%, rgba(233, 228, 224, 0) 100%), linear-gradient(180deg, #2C2C31 0%, #2C2C31 100%), #FFFFFF;;
+}
